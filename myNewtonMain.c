@@ -16,7 +16,7 @@ int main() {
 		printf("Was moechten Sie machen?\n");
 		printf("1) Die hinterlegte Funktion ausgeben\n");
 		printf("2) Eine analytische Berechnung der Nullstellen\n");
-        printf("3) Eine nummerische Berechnung der Nullstellen\n");
+                printf("3) Eine nummerische Berechnung der Nullstellen\n");
 		printf("4) Das Programm beenden\n");
 		printf("------------------------------------------------\n");
 		scanf("%d", &eingabe);
