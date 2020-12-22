@@ -44,3 +44,6 @@ int main() {
 	}
 	return 0;
 }
+/* 
+ * total: 10/10 
+ */ 

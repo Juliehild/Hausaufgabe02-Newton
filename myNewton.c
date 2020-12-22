@@ -37,7 +37,7 @@ void analytsich(void){
 	printf("Bitte geben Sie einen Startwert ein: ");
 	scanf("%lf", &start);
     x = start;
-    //Berechnung des Scnittpunktes der Tangente mit der x-Achse, bis Nullstelle gefunden wird
+    //Berechnung des Schnittpunktes der Tangente mit der x-Achse, bis Nullstelle gefunden wird
     for (i = 0; i < 1000; i++) {
         y = funktion(x);
         ableitung = funktionsAbleitung(x);
@@ -57,7 +57,7 @@ void analytsich(void){
     y = (*ptrFunktion)(x);
     //Nullstelle auf 8 Nachkommastellen ausgeben
     printf("Die Nullstelle lautet (%.8f/%.8f) \n", x, y); 
-    printf("Dazu wurden %lf Iterationen benoetigten\n", i + 1);          
+    printf("Dazu wurden %d Iterationen benoetigten\n", i + 1); // i+1 is integer   
 } 
 
 //Berechnung der Nullstelle mit Hilfe der numerischen Ableitung
@@ -88,5 +88,5 @@ void nummerisch(void){
     y = (*ptrFunktion)(x);
     //Nullstelle auf 8 Nachkommastellen und Anzahl der benötigten Iterationen ausgeben
     printf("Die Nullstelle lautet (%.8f/%.8f) \n", x, y);  
-    printf("Dazu wurden %lf Iterationen benoetigten\n", i + 1);        
+    printf("Dazu wurden %d Iterationen benoetigten\n", i + 1); // integer        
 } 
